@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden; /* Disables vertical scroll */
+    height: 100%;
+}
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 60);
+}
+.navimg{
+    height: 90px;
+    width: 90px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+#name{
+    font-size: 2.5rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(162, 103, 217);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.right {
+    margin-top: 20px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+    height: 80vh;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.container{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.mainbtn{
+    height: 80px;
+    width: 300px;
+    margin: 20px;
+    font-size: 1.5rem;
+    border: 2px solid #6161b1;
+    border-radius: 5px;
+}
+.mainbtn a{
+    text-decoration: none;
+    color: white;
+}
+.rightsection img {
+    height: 500px;
+    width: 500px;
+}
+
+.p {
+    font-size: 1.5rem;
+}
+
+.pp {
+    color: rgb(162, 103, 217);
+    text-decoration: underline;
+}
+
+#element {
+    color: rgb(162, 103, 217);
+}
+
+hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 20px 84px;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+
+.education {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+
+.secondsection h1 {
+    margin: 10px 0;
+    font-size: 1.9rem;
+}
+
+.grey {
+    color: grey;
+}
+
+.h1 {
+    margin-top: 10px;
+}
+
+.box {
+    background: rgb(255, 255, 255);
+    width: 75vw;
+    height: 2px;
+    margin: 176px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 90px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 150px;
+}
+
+.vertical1 {
+    height: 90px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 100px;
+}
+
+.devloperimg {
+    position: relative;
+    top: -95px;
+    left: -29px;
+    height: 90px;
+    width: 120px;
+}
+
+.text {
+    position: relative;
+    top: -55px;
+    left: -29px;
+    height: 90px;
+    width: 120px;
+}
+
+.devloperimg1 {
+    position: relative;
+    top: -95px;
+    left: -29px;
+    height: 90px;
+    width: 120px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 10px;
+    width: 200px;
+    color: #817aff;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 16px;
+    width: 150px;
+    color: rgb(184, 183, 183);
+    font-size: 13px;
+}
+
+.footer {
+    background: rgb(18, 18, 60);
+    height: 180px;
+    position: relative;
+    bottom: 0;
+    
+}
+.flex{
+   margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul {
+    list-style: none;
+    text-decoration: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footerimg{
+    height: 80px;
+    width: 80px;
+}
+.footerbtn {
+    text-decoration: none;
+    list-style: none;  
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    border: 2px solid #6161b1;
+    border-radius: 10px;
+}
+
+.footerbtn:hover{
+    cursor: pointer;
+    color: rgb(162, 103, 217)
+}
+.firstfooter{
+    padding: 23px 23px;
+}
+
+.thirdfooter h4{
+    position: relative;
+    left: 500px;
+    font-size: 20px;
+}
+.secondfooter ul{
+    position: relative;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondfooter ul li {
+    margin:20px;
+    padding: 4px;
+}
+.box2 {
+    position: relative;
+    top: 320px;
+}
+.contact{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.form {
+    width: 550px;
+    height: 500px;
+    background: rgb(18, 18, 60);
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    position: relative;
+    bottom: 90px;
+}
+
+.form h2 {
+    margin-right: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #ffffff;
+    border-bottom: 3px solid #6161b1;    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #ffffff
+}
+
+input:focus {
+    border-bottom: 2px solid #6161b1
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 17px;
+    color: #6161b1
+}
+
+button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #8484ff;
+    background: 0;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .3s
+}
+
+button:hover {
+    background: #6161b1;
+    color: #fff
+}
+
+.d{
+    content: 'Hi'; 
+    position: absolute;
+   margin-left: 10px;
+    left: 10px;
+    background: #6161b1;
+    color: #fff;
+    width: 300px;
+    padding: 10px ;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 10px 10px 40px -14px #000
+}
+
+.form span {
+    margin: 0 5px 0 15px
+}
+
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    display: none; /* Initially hidden */
+}
+.visible {
+    display: block; /* Show iframe */
+}
